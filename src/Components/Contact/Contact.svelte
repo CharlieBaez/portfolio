@@ -87,7 +87,7 @@
 
 <section class="contact-form" id="contact">
   <h2 class="fade-ins">
-    <a href="#contact" on:click={sendEmail}>shoot me a message!</a>
+    <a class="link" href="#contact" on:click={sendEmail}>shoot me a message!</a>
   </h2>
   <!-- <div id="form-messages" class="messages" />
   -->
