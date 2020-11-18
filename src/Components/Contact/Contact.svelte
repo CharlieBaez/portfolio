@@ -86,21 +86,9 @@
 </style>
 
 <section class="contact-form" id="contact">
-  <h2 class="fade-ins">shoot me a message!</h2>
-  <div id="form-messages" class="messages" />
-  <form
-    class="form fade-ins"
-    name="contact"
-    method="post"
-    on:submit={sendEmail}>
-    <input required type="text" id="name" name="name" placeholder="name" />
-    <input required type="email" id="email" name="email" placeholder="email" />
-    <textarea
-      name="message"
-      type="text"
-      id="message"
-      rows="6"
-      placeholder="message" />
-    <button class="button" type="submit" value="submit">send</button>
-  </form>
+  <h2 class="fade-ins">
+    <a href="#contact" on:click={sendEmail}>shoot me a message!</a>
+  </h2>
+  <!-- <div id="form-messages" class="messages" />
+  -->
 </section>
