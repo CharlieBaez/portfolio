@@ -1,5 +1,5 @@
 <script>
-  document.querySelector("form").addEventListener("submit", handleSubmit);
+  document.querySelector(".form").addEventListener("submit", handleSubmit);
 
   const handleSubmit = e => {
     e.preventDefault();
