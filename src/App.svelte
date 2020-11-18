@@ -8,6 +8,9 @@
   import DATA from "./Data/data";
 </script>
 
+<div id="stars" />
+<div id="stars2" />
+<div id="stars3" />
 <header class="container">
   <!-- Navbar -->
   <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
