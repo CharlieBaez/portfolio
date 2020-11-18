@@ -13,6 +13,9 @@
   //     .then(() => console.log("Form successfully submitted"))
   //     .catch(error => alert(error));
   // };
+  const sendEmail = e => {
+    window.open("mailto:charliewbaez@gmail.com");
+  };
 </script>
 
 <style>
@@ -88,9 +91,8 @@
   <form
     class="form fade-ins"
     name="contact"
-    action="mailto:charliewbaez@gmail.com"
     method="post"
-    enctype="text/plain">
+    on:submit={sendEmail}>
     <input required type="text" id="name" name="name" placeholder="name" />
     <input required type="email" id="email" name="email" placeholder="email" />
     <textarea
