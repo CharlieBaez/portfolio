@@ -1,18 +1,18 @@
 <script>
   /* document.querySelector(".form").addEventListener("submit", handleSubmit); */
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    let myForm = document.getElementById("ajax-contact");
-    let formData = new FormData(myForm);
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString()
-    })
-      .then(() => console.log("Form successfully submitted"))
-      .catch(error => alert(error));
-  };
+  // const handleSubmit = e => {
+  //   e.preventDefault();
+  //   let myForm = document.getElementById("ajax-contact");
+  //   let formData = new FormData(myForm);
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: new URLSearchParams(formData).toString()
+  //   })
+  //     .then(() => console.log("Form successfully submitted"))
+  //     .catch(error => alert(error));
+  // };
 </script>
 
 <style>
@@ -89,8 +89,7 @@
     class="form fade-ins"
     id="ajax-contact"
     method="post"
-    data-netlify="true"
-    on:submit={handleSubmit}>
+    data-netlify="true">
     <input
       required
       type="text"
