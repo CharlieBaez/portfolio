@@ -26,10 +26,8 @@
             http_response_code(500);
             echo "Well that didn't work..Please give it another shot.";
         }
-
     } else {
         http_response_code(403);
         echo "There was a problem with your submission, please try again.";
     }
-
 ?>
