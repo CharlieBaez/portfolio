@@ -116,26 +116,6 @@
     border: none;
     box-shadow: 0.1rem 0.3rem 0.7rem 0.1rem rgba(30, 30, 30, 0.1);
   }
-  .contact-form .success {
-    padding: 1rem;
-    margin-bottom: 1.75rem;
-    color: #6cd66e;
-    font-size: 2rem;
-    background-color: whitesmoke;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-  }
-  .contact-form .error {
-    padding: 1rem;
-    margin-bottom: 1.75rem;
-    color: #b65856;
-    font-size: 2rem;
-    background-color: whitesmoke;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-  }
 </style>
 
 <section class="contact-form" id="contact">
@@ -143,8 +123,8 @@
   <div id="form-messages" class="messages" />
   <form
     class="form fade-ins"
-    method="post"
     id="ajax-contact"
+    method="post"
     action="mailer.php">
     <input
       required

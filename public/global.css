@@ -94,3 +94,25 @@ main > .container > section {
 		margin: 4rem 0;
 	}
 }
+
+/* form styling */
+.contact-form .success {
+	padding: 1rem;
+	margin-bottom: 1.75rem;
+	color: #6cd66e;
+	font-size: 2rem;
+	background-color: whitesmoke;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.contact-form .error {
+	padding: 1rem;
+	margin-bottom: 1.75rem;
+	color: #b65856;
+	font-size: 2rem;
+	background-color: whitesmoke;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
