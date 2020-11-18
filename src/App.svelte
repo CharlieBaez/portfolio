@@ -13,20 +13,14 @@
 <div id="stars3" />
 
 <header class="container">
-  <!-- Navbar -->
   <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
-  <!-- Banner -->
   <Banner bannerData={DATA.BANNER_DATA} } />
 </header>
 <main class="container">
-  <!-- About -->
   <About aboutData={DATA.ABOUT_DATA} />
-  <!-- Testimonials -->
   <WorkGrid workData={DATA.WORKGRID_DATA} />
-  <!-- Social Media -->
   <Contact />
 </main>
 <footer>
-  <!-- Footer -->
   <Footer />
 </footer>

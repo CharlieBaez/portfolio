@@ -1,7 +1,6 @@
 <script>
   export let navlists = [];
 
-  /* Scroll Linnking */
   const navLinks = document.querySelectorAll(".navbar-item");
 
   const linkScroll = e => {

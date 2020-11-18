@@ -22,9 +22,11 @@ body {
 	flex-direction: column;
 	overflow-x: hidden;
 }
+
 header {
 	height: 100vh;
 }
+
 footer {
 	text-align: center;
 	margin: 0 auto;
@@ -32,9 +34,11 @@ footer {
 	color: coral;
 	width: 100vw;
 }
+
 h2 {
 	margin: 0 0 3rem 0;
 }
+
 p {
 	line-height: 1.4rem;
 }
@@ -76,7 +80,17 @@ main > .container > section {
 .scalers.active {
 	transform: scale(1);
 }
-/* WORKGRID ANIMATIONE */
+
+@media screen and (min-width: 769px) {
+	main > .container > section {
+		padding: 8rem 0;
+	}
+	h2 {
+		margin: 4rem 0;
+	}
+}
+
+/* WORKGRID ANIMATIONS */
 .work .work-grid .work-projects:nth-child(odd) {
 	transform: translateX(-50%);
 	opacity: 0;
@@ -91,35 +105,4 @@ main > .container > section {
 .work .work-grid .work-projects.active:nth-child(even) {
 	transform: translateX(0);
 	opacity: 1;
-}
-
-@media screen and (min-width: 769px) {
-	main > .container > section {
-		padding: 8rem 0;
-	}
-	h2 {
-		margin: 4rem 0;
-	}
-}
-
-/* form styling */
-.contact-form .success {
-	padding: 1rem;
-	margin-bottom: 1.75rem;
-	color: #6cd66e;
-	font-size: 2rem;
-	background-color: whitesmoke;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-}
-.contact-form .error {
-	padding: 1rem;
-	margin-bottom: 1.75rem;
-	color: #b65856;
-	font-size: 2rem;
-	background-color: whitesmoke;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
 }
