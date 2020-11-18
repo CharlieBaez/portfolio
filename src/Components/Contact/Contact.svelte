@@ -1,5 +1,5 @@
 <script>
-  document.querySelector(".form").addEventListener("submit", handleSubmit);
+  /* document.querySelector(".form").addEventListener("submit", handleSubmit); */
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -89,7 +89,8 @@
     class="form fade-ins"
     id="ajax-contact"
     method="post"
-    data-netlify="true">
+    data-netlify="true"
+    on:submit={handleSubmit}>
     <input
       required
       type="text"
