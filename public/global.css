@@ -22,6 +22,9 @@ body {
 	flex-direction: column;
 	overflow-x: hidden;
 }
+header {
+	height: 100vh;
+}
 h2 {
 	margin: 0 0 3rem 0;
 }
