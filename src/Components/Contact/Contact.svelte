@@ -83,9 +83,14 @@
 </style>
 
 <section class="contact-form" id="contact">
-  <h2 class="fade-ins">contact me</h2>
+  <h2 class="fade-ins">shoot me a message!</h2>
   <div id="form-messages" class="messages" />
-  <form class="form fade-ins" name="contact" method="POST" data-netlify="true">
+  <form
+    class="form fade-ins"
+    name="contact"
+    action="mailto:charliewbaez@gmail.com"
+    method="post"
+    enctype="text/plain">
     <input required type="text" id="name" name="name" placeholder="name" />
     <input required type="email" id="email" name="email" placeholder="email" />
     <textarea
