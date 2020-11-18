@@ -1,36 +1,36 @@
 <script>
-  const formSubmit = e => {
-    // const form = document.getElementById("ajax-contact");
-    // const formMessages = document.querySelector("#form-messages");
-    // const formInput = document.querySelectorAll("#ajax-contact form input");
-    // const data = new FormData(form);
-    // e.preventDefault();
-    // fetch("mailer.php", {
-    //   type: "POST",
-    //   url: form.getAttribute("action"),
-    //   data: data
-    // })
-    //   .then(function(response) {
-    //     if (response.ok) {
-    //       formMessages.classList.remove("error");
-    //       formMessages.classList.add("success");
-    //       formMessages.innerText = response;
-    //       formInput.forEach(input => {
-    //         input.value = "";
-    //       });
-    //     }
-    //   })
-    //   .catch(function(data) {
-    //     formMessages.classList.remove("success");
-    //     formMessages.classList.add("error");
-    //     if (data.responseText !== "") {
-    //       formMessages.innerText = data.responseText;
-    //     } else {
-    //       formMessages.innerText = "Well that didn't work...Please try again.";
-    //     }
-    //   });
+  //const formSubmit = e => {
+  // const form = document.getElementById("ajax-contact");
+  // const formMessages = document.querySelector("#form-messages");
+  // const formInput = document.querySelectorAll("#ajax-contact form input");
+  // const data = new FormData(form);
+  // e.preventDefault();
+  // fetch("mailer.php", {
+  //   type: "POST",
+  //   url: form.getAttribute("action"),
+  //   data: data
+  // })
+  //   .then(function(response) {
+  //     if (response.ok) {
+  //       formMessages.classList.remove("error");
+  //       formMessages.classList.add("success");
+  //       formMessages.innerText = response;
+  //       formInput.forEach(input => {
+  //         input.value = "";
+  //       });
+  //     }
+  //   })
+  //   .catch(function(data) {
+  //     formMessages.classList.remove("success");
+  //     formMessages.classList.add("error");
+  //     if (data.responseText !== "") {
+  //       formMessages.innerText = data.responseText;
+  //     } else {
+  //       formMessages.innerText = "Well that didn't work...Please try again.";
+  //     }
+  //   });
 
-    event.preventDefault();
+  /*     event.preventDefault();
 
     fetch(e.target.getAttribute("action"), {
       method: "POST",
@@ -48,7 +48,7 @@
       .catch(function(error) {
         console.warn(error);
       });
-  };
+  }; */
 </script>
 
 <style>
@@ -141,7 +141,11 @@
 <section class="contact-form" id="contact">
   <h2 class="fade-ins">contact me</h2>
   <div id="form-messages" class="messages" />
-  <form class="form fade-ins" id="ajax-contact" on:submit={formSubmit}>
+  <form
+    class="form fade-ins"
+    method="post"
+    id="ajax-contact"
+    action="mailer.php">
     <input
       required
       type="text"
