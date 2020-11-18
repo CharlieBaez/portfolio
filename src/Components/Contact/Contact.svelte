@@ -85,25 +85,9 @@
 <section class="contact-form" id="contact">
   <h2 class="fade-ins">contact me</h2>
   <div id="form-messages" class="messages" />
-  <form
-    class="form fade-ins"
-    id="ajax-contact"
-    method="post"
-    data-netlify="true">
-    <input
-      required
-      type="text"
-      id="name"
-      name="name"
-      placeholder="name"
-      autocomplete="off" />
-    <input
-      required
-      type="email"
-      id="email"
-      name="email"
-      placeholder="email"
-      autocomplete="off" />
+  <form class="form fade-ins" method="POST" data-netlify="true">
+    <input required type="text" id="name" name="name" placeholder="name" />
+    <input required type="email" id="email" name="email" placeholder="email" />
     <textarea
       name="message"
       type="text"
