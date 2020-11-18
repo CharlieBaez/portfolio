@@ -26,7 +26,7 @@
   <!-- Social Media -->
   <Contact />
 </main>
-<footer class="container">
+<footer>
   <!-- Footer -->
   <Footer />
 </footer>

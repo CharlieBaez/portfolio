@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  .footer .footer-copy {
+  .container .footer-copy {
     display: flex;
     flex-direction: column;
     padding: 6rem 0;
@@ -13,7 +13,7 @@
     text-align: center;
   }
   @media screen and (min-width: 769px) {
-    .footer .footer-copy {
+    .container .footer-copy {
       flex-direction: row;
       text-align: left;
     }
@@ -62,7 +62,7 @@
   }
 </style>
 
-<div class="footer">
+<div class="container">
   <div class="row footer-copy">
     <div class="footer-title">
       Charlie
