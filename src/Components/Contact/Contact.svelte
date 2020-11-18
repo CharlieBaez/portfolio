@@ -85,7 +85,7 @@
 <section class="contact-form" id="contact">
   <h2 class="fade-ins">contact me</h2>
   <div id="form-messages" class="messages" />
-  <form class="form fade-ins" name="contact" method="POST" netlify>
+  <form class="form fade-ins" name="contact" method="POST" data-netlify="true">
     <input required type="text" id="name" name="name" placeholder="name" />
     <input required type="email" id="email" name="email" placeholder="email" />
     <textarea
