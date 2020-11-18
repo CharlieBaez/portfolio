@@ -25,6 +25,13 @@ body {
 header {
 	height: 100vh;
 }
+footer {
+	text-align: center;
+	margin: 0 auto;
+	background: whitesmoke;
+	color: coral;
+	width: 100vw;
+}
 h2 {
 	margin: 0 0 3rem 0;
 }

@@ -118,10 +118,17 @@
   </div>
   <div class="work-cta fade-ins">
     checkout my
+    <a href="https://github.com/CharlieBaez/" target="_blank" class="link">
+      GitHub
+    </a>
+    where I host my personal projects
+  </div>
+  <div class="work-cta fade-ins">
+    checkout my
     <a href="https://codepen.io/RasterWolf" target="_blank" class="link">
       CodePen
     </a>
-    where I sketch out ideas for personal and professional projects
+    where I sketch out ideas and prototype concepts
   </div>
 </section>
 <!------------------------------------------->

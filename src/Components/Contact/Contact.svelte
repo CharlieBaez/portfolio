@@ -1,94 +1,44 @@
 <script>
-  /* document.querySelector(".form").addEventListener("submit", handleSubmit); */
-
-  // const handleSubmit = e => {
-  //   e.preventDefault();
-  //   let myForm = document.getElementById("ajax-contact");
-  //   let formData = new FormData(myForm);
-  //   fetch("/", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //     body: new URLSearchParams(formData).toString()
-  //   })
-  //     .then(() => console.log("Form successfully submitted"))
-  //     .catch(error => alert(error));
-  // };
   const sendEmail = e => {
     window.open("mailto:charliewbaez@gmail.com");
   };
 </script>
 
 <style>
-  .contact-form {
-    margin: 0 auto;
-    width: 100%;
+  .contact {
+    margin: 6rem auto;
   }
-  .contact-form .form {
-    max-width: 60rem;
+  .contact h2 {
     display: flex;
-    flex-direction: column;
-    font-size: 1.6rem;
-    margin: 0 auto 6rem auto;
+    align-items: center;
+    justify-content: center;
   }
-  .contact-form .form input[type="email"],
-  .contact-form .form input[type="text"],
-  .contact-form .form textarea {
-    border: solid 0.1rem whitesmoke;
-    border-radius: 0;
-    padding: 1rem 0.7rem;
-    margin-bottom: 1.5rem;
-    outline: none;
-    background-color: transparent;
-  }
-  .contact-form .form input[type="email"]::placeholder,
-  .contact-form .form input[type="text"]::placeholder,
-  .contact-form .form textarea::placeholder {
-    color: whitesmoke;
-  }
-  .contact-form .form input[type="email"]:focus::placeholder,
-  .contact-form .form input[type="text"]:focus::placeholder,
-  .contact-form .form textarea:focus::placeholder {
-    color: coral;
-  }
-  .contact-form .form input[type="email"] textarea,
-  .contact-form .form input[type="text"] textarea,
-  .contact-form .form textarea textarea {
-    resize: none;
-  }
-  .contact-form .form input[type="email"]:focus,
-  .contact-form .form input[type="text"]:focus,
-  .contact-form .form textarea:focus {
-    background: lightgreen;
-    color: coral;
-    border: none;
-  }
-  .contact-form .form .button {
+  .contact h2 a.link {
     background: transparent;
     border: solid 0.1rem whitesmoke;
     border-radius: 0;
     color: whitesmoke;
     cursor: pointer;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
-    width: 20rem;
+    width: auto;
     margin: 2rem auto;
-    line-height: 1.4rem;
+    line-height: 3rem;
     text-transform: none;
     transition: all 0.2s ease-in-out;
   }
-  .contact-form .form .button:hover,
-  .contact-form .form .button:focus {
+  .contact h2 a.link:hover,
+  .contact h2 a.link:active,
+  .contact h2 a.link:focus {
     background: lightgreen;
     color: coral;
-    border: none;
+    border: solid 0.1rem lightgreen;
     box-shadow: 0.1rem 0.3rem 0.7rem 0.1rem rgba(30, 30, 30, 0.1);
   }
 </style>
 
-<section class="contact-form" id="contact">
+<section class="contact" id="contact">
   <h2 class="fade-ins">
     <a class="link" href="#contact" on:click={sendEmail}>shoot me a message!</a>
   </h2>
-  <!-- <div id="form-messages" class="messages" />
-  -->
 </section>

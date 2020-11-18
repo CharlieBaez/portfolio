@@ -1,72 +1,102 @@
 <script>
-  export let footerData = {};
-  export let header = "";
-  const {
-    DESCRIPTION,
-    CONTACT_DETAILS,
-    SUBSCRIBE_NEWSLETTER,
-    SUBSCRIBE
-  } = footerData;
-  const { HEADING, ADDRESS, MOBILE, EMAIL } = CONTACT_DETAILS;
+
 </script>
 
-<!------------------------------------------->
-<!----------------MARKUP----------------------->
-<!------------------------------------------->
-<section class="main-bgcolor light-color" id="footer">
-  <img src="images/wave2.png" alt="" class="wave-img" />
-  <div class="container">
-    <div class="row section-body">
-      <div class="col-md-4 footer-box">
-        <div class="company_brand">{header}</div>
-        <p>{DESCRIPTION}</p>
-      </div>
-      <div class="col-md-4 footer-box">
-        <p class="footer-title">{HEADING}</p>
-        <p>
-          <i class="fas fa-map-marker-alt" />
-          {ADDRESS}
-        </p>
-        <p>
-          <i class="fas fa-phone" />
-          {MOBILE}
-        </p>
-        <p>
-          <i class="fas fa-envelope" />
-          {EMAIL}
-        </p>
-      </div>
-      <div class="col-md-4 footer-box">
-        <p class="footer-title">{SUBSCRIBE_NEWSLETTER}</p>
-        <input
-          type="email"
-          class="form-control round-border"
-          placeholder="Your Email" />
-        <button type="button" class="btn btn-outline-light round-border">
-          {SUBSCRIBE}
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-<!------------------------------------------->
-<!----------------Style----------------------->
-<!------------------------------------------->
 <style>
-  .footer-title {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-
-  .footer-box button {
-    margin-top: 30px;
-  }
-
-  .round-border {
-    border-radius: 20px !important;
-  }
-  .wave-img {
+  .footer .footer-copy {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+    align-items: center;
     width: 100%;
-    height: auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+  @media screen and (min-width: 769px) {
+    .footer .footer-copy {
+      flex-direction: row;
+      text-align: left;
+    }
+  }
+  footer .footer-copy .footer-title {
+    font-family: "Monoton", cursive;
+    font-size: 4rem;
+    font-weight: normal;
+    line-height: 4rem;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  @media screen and (min-width: 769px) {
+    footer .footer-copy .footer-title {
+      width: 70%;
+      margin-bottom: 0;
+    }
+  }
+  footer .footer-copy .footer-social-links {
+    width: 100%;
+  }
+  @media screen and (min-width: 769px) {
+    footer .footer-copy .footer-social-links {
+      width: 30%;
+    }
+  }
+  footer .footer-copy .footer-social-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 769px) {
+    footer .footer-copy .footer-social-links ul {
+      margin: 0;
+    }
+  }
+  footer .footer-copy .footer-social-links ul li {
+    text-align: right;
+  }
+  footer .footer-copy .footer-social-links ul li a {
+    font-size: 4rem;
   }
 </style>
+
+<div class="footer">
+  <div class="row footer-copy">
+    <div class="footer-title">
+      Charlie
+      <br />
+      Baez
+    </div>
+    <div class="footer-social-links">
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/charlierund/"
+            class="link"
+            target="_blank">
+            <i class="fab fa-linkedin-in" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/charlie_baez"
+            class="link"
+            target="_blank">
+            <i class="fab fa-twitter" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/charliebaez85"
+            class="link"
+            target="_blank">
+            <i class="fab fa-instagram" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">©2020 Charlie Baez</div>
+</div>

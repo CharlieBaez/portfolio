@@ -28,5 +28,5 @@
 </main>
 <footer class="container">
   <!-- Footer -->
-  <Footer footerData={DATA.FOOTER_DATA} header={DATA.HEADER} />
+  <Footer />
 </footer>
