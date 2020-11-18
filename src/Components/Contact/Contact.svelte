@@ -1,54 +1,18 @@
 <script>
-  //const formSubmit = e => {
-  // const form = document.getElementById("ajax-contact");
-  // const formMessages = document.querySelector("#form-messages");
-  // const formInput = document.querySelectorAll("#ajax-contact form input");
-  // const data = new FormData(form);
-  // e.preventDefault();
-  // fetch("mailer.php", {
-  //   type: "POST",
-  //   url: form.getAttribute("action"),
-  //   data: data
-  // })
-  //   .then(function(response) {
-  //     if (response.ok) {
-  //       formMessages.classList.remove("error");
-  //       formMessages.classList.add("success");
-  //       formMessages.innerText = response;
-  //       formInput.forEach(input => {
-  //         input.value = "";
-  //       });
-  //     }
-  //   })
-  //   .catch(function(data) {
-  //     formMessages.classList.remove("success");
-  //     formMessages.classList.add("error");
-  //     if (data.responseText !== "") {
-  //       formMessages.innerText = data.responseText;
-  //     } else {
-  //       formMessages.innerText = "Well that didn't work...Please try again.";
-  //     }
-  //   });
+  document.querySelector("form").addEventListener("submit", handleSubmit);
 
-  /*     event.preventDefault();
-
-    fetch(e.target.getAttribute("action"), {
+  const handleSubmit = e => {
+    e.preventDefault();
+    let myForm = document.getElementById("ajax-contact");
+    let formData = new FormData(myForm);
+    fetch("/", {
       method: "POST",
-      body: new FormData(event.target)
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString()
     })
-      .then(function(response) {
-        if (response.ok) {
-          console.log("message sent");
-        }
-        return Promise.reject(response);
-      })
-      .then(function(data) {
-        console.log(data);
-      })
-      .catch(function(error) {
-        console.warn(error);
-      });
-  }; */
+      .then(() => console.log("Form successfully submitted"))
+      .catch(error => alert(error));
+  };
 </script>
 
 <style>
@@ -125,7 +89,7 @@
     class="form fade-ins"
     id="ajax-contact"
     method="post"
-    action="mailer.php">
+    data-netlify="true">
     <input
       required
       type="text"
