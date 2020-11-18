@@ -1,6 +1,6 @@
 <script>
   const sendEmail = e => {
-    window.open("mailto:charliewbaez@gmail.com?subject=Oh Hey");
+    window.open("mailto:charliewbaez@gmail.com?subject=Oh Hey!");
   };
 </script>
 
