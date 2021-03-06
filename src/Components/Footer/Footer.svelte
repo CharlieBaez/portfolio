@@ -59,6 +59,7 @@
   }
   footer .footer-copy .footer-social-links ul li a {
     font-size: 4rem;
+    color: transparent;
   }
 </style>
 
@@ -77,6 +78,7 @@
             class="link social-media-links"
             target="_blank"
             rel="noopener">
+            Linkedin
             <i class="fab fa-linkedin-in" />
           </a>
         </li>
@@ -86,6 +88,7 @@
             class="link social-media-links"
             target="_blank"
             rel="noopener">
+            Twitter
             <i class="fab fa-twitter" />
           </a>
         </li>
@@ -95,6 +98,7 @@
             class="link social-media-links"
             target="_blank"
             rel="noopener">
+            Instagram
             <i class="fab fa-instagram" />
           </a>
         </li>
