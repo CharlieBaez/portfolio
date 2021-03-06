@@ -104,9 +104,10 @@
           <a
             tabindex="0"
             href={work.url}
-            rel="noopener"
+            class="link work-projects_example"
+            aria-label="Link to {work.project} site"
             target="_blank"
-            class="link work-projects_example">
+            rel="noopener">
             {work.project}
           </a>
         </h3>

@@ -70,7 +70,7 @@
 
 <section id="nav-bar">
   <nav class="navbar">
-    <ul class="navbar-list">
+    <ul role="navigation" class="navbar-list">
       {#each navlists as list}
         <li
           class="navbar-item link"
