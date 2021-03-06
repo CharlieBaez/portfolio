@@ -33,6 +33,7 @@ footer {
 	background: whitesmoke;
 	color: coral;
 	width: 100vw;
+	z-index: 1;
 }
 
 h2 {
