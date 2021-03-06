@@ -1,3 +1,7 @@
+@import './module/normalize.scss';
+@import './module/skeleton.scss';
+@import './module/animatica.scss';
+
 @import './components/site-animation';
 * {
   box-sizing: border-box;

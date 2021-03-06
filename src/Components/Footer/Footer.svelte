@@ -74,24 +74,27 @@
         <li>
           <a
             href="https://www.linkedin.com/in/charlierund/"
-            class="link"
-            target="_blank">
+            class="link social-media-links"
+            target="_blank"
+            rel="noopener">
             <i class="fab fa-linkedin-in" />
           </a>
         </li>
         <li>
           <a
             href="https://twitter.com/charlie_baez"
-            class="link"
-            target="_blank">
+            class="link social-media-links"
+            target="_blank"
+            rel="noopener">
             <i class="fab fa-twitter" />
           </a>
         </li>
         <li>
           <a
             href="https://www.instagram.com/charliebaez85"
-            class="link"
-            target="_blank">
+            class="link social-media-links"
+            target="_blank"
+            rel="noopener">
             <i class="fab fa-instagram" />
           </a>
         </li>
