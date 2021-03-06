@@ -1,10 +1,12 @@
 import App from './App.svelte';
+import '../src/sass/style.scss';
+import headerImage from '../src/images/selfie_gray_glasses.png';
 
 const app = new App({
-	target: document.body,
-	props: {
-		name: 'world',
-	},
+  target: document.body,
+  props: {
+    name: 'world',
+  },
 });
 
 export default app;
@@ -15,37 +17,37 @@ const fadeIns = document.querySelectorAll('.fade-ins');
 const scalers = document.querySelectorAll('.scalers');
 
 const options = {
-	threshold: 0,
-	rootMargin: '0px 0px -150px 0px',
+  threshold: 0,
+  rootMargin: '0px 0px -150px 0px',
 };
 
 const animateOnScroll = new IntersectionObserver(function (
-	entries,
-	animateOnScroll
+  entries,
+  animateOnScroll,
 ) {
-	entries.forEach((entry) => {
-		if (!entry.isIntersecting) {
-			return;
-		} else {
-			entry.target.classList.add('active');
-			animateOnScroll.unobserve(entry.target);
-		}
-	});
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add('active');
+      animateOnScroll.unobserve(entry.target);
+    }
+  });
 },
 options);
 
 tiles.forEach((tile) => {
-	animateOnScroll.observe(tile);
+  animateOnScroll.observe(tile);
 });
 fadeIns.forEach((fade) => {
-	animateOnScroll.observe(fade);
+  animateOnScroll.observe(fade);
 });
 scalers.forEach((scale) => {
-	animateOnScroll.observe(scale);
+  animateOnScroll.observe(scale);
 });
 
 window.addEventListener('load', function () {
-	setTimeout(() => {
-		window.scrollTo(0, 0);
-	}, 10);
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, 10);
 });

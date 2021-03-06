@@ -101,7 +101,12 @@
     {#each WORKGRID_LIST as work}
       <div class="work-projects">
         <h3>
-          <a tabindex="0" href={work.url} target="_blank" class="link">
+          <a
+            tabindex="0"
+            href={work.url}
+            rel="noopener"
+            target="_blank"
+            class="link work-projects_example">
             {work.project}
           </a>
         </h3>
@@ -114,14 +119,22 @@
   </div>
   <div class="work-cta fade-ins">
     checkout my
-    <a href="https://github.com/CharlieBaez/" target="_blank" class="link">
+    <a
+      href="https://github.com/CharlieBaez/"
+      rel="noopener"
+      target="_blank"
+      class="link">
       GitHub
     </a>
     where I host my personal projects
   </div>
   <div class="work-cta fade-ins">
     checkout my
-    <a href="https://codepen.io/RasterWolf" target="_blank" class="link">
+    <a
+      href="https://codepen.io/RasterWolf"
+      rel="noopener"
+      target="_blank"
+      class="link">
       CodePen
     </a>
     where I sketch out ideas and prototype concepts

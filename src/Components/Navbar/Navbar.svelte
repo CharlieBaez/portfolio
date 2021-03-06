@@ -76,7 +76,7 @@
           class="navbar-item link"
           name={list.title}
           tabindex="0"
-          role="link"
+          role="navigation"
           aria-label="Link to {list.title} section"
           on:click={linkScroll}
           on:keyup={linkScrollFocus}>
