@@ -1,5 +1,4 @@
 import App from './App.svelte';
-import 'lazysizes';
 import '../src/styles/style.scss';
 import headerImage from '../src/images/selfie_gray_glasses.png';
 

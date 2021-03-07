@@ -44,8 +44,9 @@
     data-src={IMAGE_URL}
     width={IMAGE_WIDTH}
     height={IMAGE_HEIGHT}
-    class="headshot scalers lazyload"
-    alt="charlie_baez" />
+    class="headshot scalers"
+    alt="charlie_baez"
+    loading="lazy" />
   <h2 class="fade-ins">{HEADING}</h2>
   <p class="fade-ins">{DESCRIPTION}</p>
   <blockquote class="fade-ins">
