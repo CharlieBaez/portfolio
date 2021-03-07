@@ -14,17 +14,17 @@ export default {
     sourcemap: true,
     format: 'iife',
     name: 'app',
-    file: 'public/build/bundle.js',
+    file: 'public/build/js/bundle.js',
   },
   plugins: [
     scss({
       output: true,
-      output: 'public/style.css',
+      output: 'public/build/css/style.css',
       outputStyle: 'compressed',
       // include: [],
       // exclude: [],
       failOnError: true,
-      watch: 'src/sass/components',
+      watch: 'src/styles',
     }),
     imagemin({
       publicPath: '../images',
@@ -36,7 +36,7 @@ export default {
       // we'll extract any component CSS out into
       // a separate file — better for performance
       css: (css) => {
-        css.write('public/build/bundle.css');
+        css.write('public/build/css/bundle.css');
       },
     }),
 

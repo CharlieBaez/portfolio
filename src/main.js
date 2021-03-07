@@ -1,9 +1,9 @@
 import App from './App.svelte';
-import '../src/sass/style.scss';
+import '../src/styles/style.scss';
 import headerImage from '../src/images/selfie_gray_glasses.png';
 
 const app = new App({
-  target: document.body,
+  target: document.getElementById('root'),
   props: {
     name: 'world',
   },

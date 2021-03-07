@@ -9,8 +9,8 @@
 		content="Portfolio site for Minneapolis based front end web and javascript developer Charlie Baez.">
 	<title>Charlie Baez</title>
 	<link rel='icon' type='image/png' href='/favicon.png'>
-	<link rel='stylesheet' href='/style.css'>
-	<link rel='stylesheet' href='/build/bundle.css'>
+	<link rel='stylesheet' href='/build/css/style.css'>
+	<link rel='stylesheet' href='/build/css/bundle.css'>
 	<style type="text/css">
 		body {
 			font-family: 'Podkova', serif;
@@ -30,7 +30,6 @@
 
 	</style>
 	<style>
-		/* latin */
 		@font-face {
 			font-family: 'Monoton';
 			font-style: normal;
@@ -39,7 +38,6 @@
 			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 		}
 
-		/* latin-ext */
 		@font-face {
 			font-family: 'Podkova';
 			font-style: normal;
@@ -48,7 +46,6 @@
 			unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 		}
 
-		/* latin */
 		@font-face {
 			font-family: 'Podkova';
 			font-style: normal;
@@ -60,10 +57,11 @@
 	</style>
 	<script defer
 		src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<script defer src='/build/bundle.js'></script>
 </head>
 
 <body>
+	<div id="root"></div>
+	<script defer src='/build/js/bundle.js'></script>
 </body>
 
 </html>
