@@ -41,7 +41,7 @@
 
 <section class="about" id="about">
   <img
-    data-src={IMAGE_URL}
+    src={IMAGE_URL}
     width={IMAGE_WIDTH}
     height={IMAGE_HEIGHT}
     class="headshot scalers"
