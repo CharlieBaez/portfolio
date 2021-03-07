@@ -27,7 +27,7 @@
     flex-shrink: 0;
     flex-grow: 1;
     padding: 0.5em;
-    border: 0.1rem solid whitesmoke;
+    border: 0.1rem solid white;
     position: relative;
     height: 100%;
     background: transparent;

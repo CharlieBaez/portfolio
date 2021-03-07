@@ -15,9 +15,9 @@
   }
   .contact h2 a.link {
     background: transparent;
-    border: solid 0.1rem whitesmoke;
+    border: solid 0.1rem white;
     border-radius: 0;
-    color: whitesmoke;
+    color: white;
     cursor: pointer;
     padding: 2rem;
     text-align: center;

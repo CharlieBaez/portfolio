@@ -16,11 +16,11 @@
 }
 
 body {
-  border: 0.9rem solid whitesmoke;
+  border: 0.9rem solid white;
   border-bottom: none;
   margin: 0;
   //font-family: 'Podkova', serif;
-  color: whitesmoke;
+  color: white;
   background-color: rgb(250, 83, 54);
   display: flex;
   min-height: 100vh;
@@ -35,7 +35,7 @@ header {
 footer {
   text-align: center;
   margin: 0 auto;
-  background: whitesmoke;
+  background: white;
   color: rgb(250, 83, 54);
   width: 100vw;
   z-index: 1;
