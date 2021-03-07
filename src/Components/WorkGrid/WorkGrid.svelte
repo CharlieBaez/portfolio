@@ -37,7 +37,7 @@
   .work .work-grid .work-projects:focus-within {
     border: 1px solid lightgreen;
     background: lightgreen;
-    color: coral;
+    color: rgb(250, 83, 54);
     box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.5);
   }
 
@@ -48,7 +48,7 @@
   }
   .work .work-grid .work-projects h3 a:hover,
   .work .work-grid .work-projects h3 a:focus {
-    color: coral;
+    color: rgb(250, 83, 54);
     border-bottom: none;
   }
   .work .work-grid .work-projects h3 a:before {

@@ -14,10 +14,10 @@
   }
 
   .hero-headline {
-    font-family: "Monoton", cursive;
-    font-size: 5rem;
+    /* font-family: "Monoton", cursive;
+    font-size: 5rem; */
     margin: 0;
-    font-weight: normal;
+    /* font-weight: normal; */
     text-align: center;
   }
 

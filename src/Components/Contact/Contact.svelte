@@ -31,7 +31,7 @@
   .contact h2 a.link:active,
   .contact h2 a.link:focus {
     background: lightgreen;
-    color: coral;
+    color: rgb(250, 83, 54);
     border: solid 0.1rem lightgreen;
     box-shadow: 0.1rem 0.3rem 0.7rem 0.1rem rgba(30, 30, 30, 0.1);
   }

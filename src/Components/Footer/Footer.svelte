@@ -19,9 +19,9 @@
     }
   }
   footer .footer-copy .footer-title {
-    font-family: "Monoton", cursive;
+    /* font-family: "Monoton", cursive;
     font-size: 4rem;
-    font-weight: normal;
+    font-weight: normal; */
     line-height: 4rem;
     width: 100%;
     margin-bottom: 4rem;

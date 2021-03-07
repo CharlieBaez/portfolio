@@ -3,7 +3,6 @@
 @import './module/animatica.scss';
 
 @import './components/site-animation';
-@import url('https://fonts.googleapis.com/css?family=Podkova|Monoton');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,9 +19,9 @@ body {
   border: 0.9rem solid whitesmoke;
   border-bottom: none;
   margin: 0;
-  font-family: 'Podkova', serif;
+  //font-family: 'Podkova', serif;
   color: whitesmoke;
-  background-color: coral;
+  background-color: rgb(250, 83, 54);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -37,7 +36,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   background: whitesmoke;
-  color: coral;
+  color: rgb(250, 83, 54);
   width: 100vw;
   z-index: 1;
 }
