@@ -60,6 +60,11 @@
   footer .footer-copy .footer-social-links ul li a {
     font-size: 4rem;
   }
+  .footer-copywrite {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
 </style>
 
 <div class="container">
@@ -76,7 +81,8 @@
             href="https://www.linkedin.com/in/charlierund/"
             class="link social-media-links"
             target="_blank"
-            rel="noopener">
+            rel="noopener"
+            aria-label="Linkedin">
             <i class="fab fa-linkedin-in" />
           </a>
         </li>
@@ -85,7 +91,8 @@
             href="https://twitter.com/charlie_baez"
             class="link social-media-links"
             target="_blank"
-            rel="noopener">
+            rel="noopener"
+            aria-label="Twitter">
             <i class="fab fa-twitter" />
           </a>
         </li>
@@ -94,12 +101,13 @@
             href="https://www.instagram.com/charliebaez85"
             class="link social-media-links"
             target="_blank"
-            rel="noopener">
+            rel="noopener"
+            aria-label="Instagram">
             <i class="fab fa-instagram" />
           </a>
         </li>
       </ul>
     </div>
   </div>
-  <div class="row">©2020 Charlie Baez</div>
+  <div class="row footer-copywrite">©2020 Charlie Baez</div>
 </div>
