@@ -41,10 +41,10 @@
 
 <section class="about" id="about">
   <img
-    src={IMAGE_URL}
+    data-src={IMAGE_URL}
     width={IMAGE_WIDTH}
     height={IMAGE_HEIGHT}
-    class="headshot scalers"
+    class="headshot scalers lazyload"
     alt="charlie_baez" />
   <h2 class="fade-ins">{HEADING}</h2>
   <p class="fade-ins">{DESCRIPTION}</p>
