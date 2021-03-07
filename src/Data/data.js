@@ -11,6 +11,8 @@ const BANNER_DATA = {
 const ABOUT_DATA = {
   HEADING: 'hola',
   IMAGE_URL: '/build/images/selfie_gray_glasses.png',
+  IMAGE_WIDTH: '400',
+  IMAGE_HEIGHT: '343',
   DESCRIPTION:
     'I am a developer with a focus in UI, Motion Design, UX and Accessibility. I utilize a variety of tools including Javascript, modern js frameworks (Svelte, React, and Gatsby), GraphQL, a11y Web Standards and more to build engaging, immersive, and accessible user experiences. I love learning and exploring this ever evolving digital landscape.',
   QUOTE: '"Somewhere, something incredible is waiting to be known."',

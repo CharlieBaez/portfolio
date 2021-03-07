@@ -1,6 +1,15 @@
 <script>
   export let aboutData = {};
-  const { HEADING, TITLE, IMAGE_URL, DESCRIPTION, QUOTE, BYLINE } = aboutData;
+  const {
+    HEADING,
+    TITLE,
+    IMAGE_URL,
+    IMAGE_HEIGHT,
+    IMAGE_WIDTH,
+    DESCRIPTION,
+    QUOTE,
+    BYLINE
+  } = aboutData;
 </script>
 
 <style>
@@ -31,7 +40,12 @@
 </style>
 
 <section class="about" id="about">
-  <img src={IMAGE_URL} class="headshot scalers" alt="charlie_baez" />
+  <img
+    src={IMAGE_URL}
+    width={IMAGE_WIDTH}
+    height={IMAGE_HEIGHT}
+    class="headshot scalers"
+    alt="charlie_baez" />
   <h2 class="fade-ins">{HEADING}</h2>
   <p class="fade-ins">{DESCRIPTION}</p>
   <blockquote class="fade-ins">
