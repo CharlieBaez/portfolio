@@ -23,14 +23,14 @@ const WORKGRID_DATA = {
   WORKGRID_LIST: [
     {
       url: "https://www.gci.com/",
-      project: "Alaska's larget communication provider",
+      project: "GCI",
       description:
-        "application and website development and replatform of existing site to XMCloud. Colaborative dev with internal team",
+        "application and website development and replatform for Alaska's larget communications provider. Colaborative dev with internal team",
       tools: "NextJs | TailwindCSS | Figma Design Tokens | JSS",
     },
     {
       url: "https://bell.bank",
-      project: "Bell Bank Replatform",
+      project: "Bell Bank",
       description:
         "application and website development and replatform of existing site to XMCloud. Lead Front End Tech",
       tools: "NextJs | TailwindCSS | SitecoreSearch | JSS",
