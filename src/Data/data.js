@@ -14,7 +14,7 @@ const ABOUT_DATA = {
   IMAGE_WIDTH: "400",
   IMAGE_HEIGHT: "343",
   DESCRIPTION:
-    "I am a developer with a focus in UI, Motion Design, UX and Accessibility. I utilize a variety of tools including Javascript, NextJs, TailWindCSS, SASS, GraphQL, a11y Web Standards and more to build engaging, immersive, and accessible user experiences. I love learning and exploring this ever evolving digital landscape.",
+    "I am a developer with a focus in UI, UX and Accessibility. I utilize a variety of tools including Javascript, NextJs, TailWindCSS, GraphQL, a11y Web Standards and more to build engaging, immersive, and accessible user experiences. I love learning and exploring this ever evolving digital landscape.",
   QUOTE: '"Somewhere, something incredible is waiting to be known."',
   BYLINE: "Carl Sagan",
 };
@@ -22,18 +22,32 @@ const WORKGRID_DATA = {
   HEADING: "work",
   WORKGRID_LIST: [
     {
+      url: "https://www.gci.com/",
+      project: "Alaska's larget communication provider",
+      description:
+        "application and website development and replatform of existing site to XMCloud. Colaborative dev with internal team",
+      tools: "NextJs | TailwindCSS | Figma Design Tokens | JSS",
+    },
+    {
+      url: "https://bell.bank",
+      project: "Bell Bank Replatform",
+      description:
+        "application and website development and replatform of existing site to XMCloud. Lead Front End Tech",
+      tools: "NextJs | TailwindCSS | SitecoreSearch | JSS",
+    },
+    {
       url: "https://www.AZBlue.com/",
       project: "Blue Cross Blue Shield Arizona",
       description:
         "application development for website and policy selection flow. Colaborative dev with internal team",
-      tools: "NextJs | Tailwind | Sitecore | JSS",
+      tools: "NextJs | TailwindCSS | SXA | JSS",
     },
     {
       url: "https://www.bethematch.org/",
       project: "Be The Match",
       description:
         "website resdesign and development for B2B. Colaborative dev with internal team",
-      tools: "NextJs | Tailwind | Sitecore | JSS",
+      tools: "NextJs | TailwindCSS | Sitecore | JSS",
     },
     {
       url: "https://www.unitybyhardrock.com/",
