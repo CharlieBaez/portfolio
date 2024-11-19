@@ -14,7 +14,7 @@ const ABOUT_DATA = {
   IMAGE_WIDTH: "400",
   IMAGE_HEIGHT: "343",
   DESCRIPTION:
-    "I am a developer with a focus in UI, UX and Accessibility. I utilize a variety of tools including Javascript, NextJs, TailWindCSS, GraphQL, a11y Web Standards and more to build engaging, immersive, and accessible user experiences. I love learning and exploring this ever evolving digital landscape.",
+    "I'm a developer with a focus in UI, UX and Accessibility. I utilize a variety of tools including Javascript, NextJs, TailWindCSS, GraphQL, a11y Web Standards and more to build engaging, immersive, and accessible user experiences. I love learning and exploring this ever evolving digital landscape.",
   QUOTE: '"Somewhere, something incredible is waiting to be known."',
   BYLINE: "Carl Sagan",
 };
